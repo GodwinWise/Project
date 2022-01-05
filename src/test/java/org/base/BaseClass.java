@@ -50,7 +50,7 @@ public String getdata(int rowNumber,int cellNumber,String sheetName,String fileN
 		
 		long l = (long)d;
 		value = String.valueOf(l);
-		
+		System.out.println(l);
 	}
 	
 		return value;
